@@ -4,6 +4,7 @@
  * */
 
 #include "as1.hpp"
+#include "as2.hpp"
 #include <iostream>
 
 using namespace homework;
@@ -28,6 +29,19 @@ std::cout << "My data value is now: " << mydata.get() << std::endl;
 mydata.set(73);
 std::cout << "My data value is now: " << mydata.get() << std::endl;
 val = mydata.get();
+
+//as2
+std::cout << "Assignemnt 2:" << std::endl;
+
+homework::Knight knight{"Hornet"};
+
+knight.setWeapon("Pale Nail");
+knight.attack();
+
+homework::Sorcerer sorcerer{"Snail Shaman"};
+
+sorcerer.setSpell("Vengeful spirit");
+sorcerer.attack();
 
 }
 
