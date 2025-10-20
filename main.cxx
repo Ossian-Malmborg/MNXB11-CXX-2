@@ -38,9 +38,9 @@ homework::Knight knight{"Hornet"};
 knight.setWeapon("Pale Nail");
 knight.attack();
 
-homework::Sorcerer sorcerer{"Snail Shaman"};
+homework::Sorcerer sorcerer{"Groal the Great"};
 
-sorcerer.setSpell("Vengeful spirit");
+sorcerer.setAbility("Vengeful spirit");
 sorcerer.attack();
 
 }

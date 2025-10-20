@@ -18,14 +18,14 @@ std::unique_ptr<Entity> Knight::clone() const {
 }
 
 Sorcerer::Sorcerer(const std::string& name)
-    :  Entity(name), spell("fireball") {}
+    :  Entity(name), ability("fireball") {}
 
 void Sorcerer::attack() const {
-    std::cout << name << " uses the spell " << spell << "\n";
+    std::cout << name << " uses the spell " << ability << "\n";
 }
 
-void Sorcerer::setSpell(const std::string& newSpell) {
-    spell = newSpell;
+void Sorcerer::setAbility(const std::string& newAbility) {
+    ability = newAbility;
 }
 
 std::unique_ptr<Entity> Sorcerer::clone() const {

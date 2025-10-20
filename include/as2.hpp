@@ -61,12 +61,12 @@ public:
 
   void attack() const override;
 
-  void setSpell(const std::string& newSpell);
+  void setAbility(const std::string& newAbility);
 
   std::unique_ptr<Entity> clone() const override;
 
 private:
-    std::string spell;
+    std::string ability;
 };
 
   // as 2.3 (This is a stretch goal, hand it in, and if it does not work, you can still pass the assignment)
