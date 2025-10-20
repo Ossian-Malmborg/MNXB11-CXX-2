@@ -4,7 +4,6 @@
  * */
 
 #include "as1.hpp"
-#include "as2.hpp"
 #include <iostream>
 
 using namespace homework;
